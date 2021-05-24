@@ -1,0 +1,15 @@
+.container {
+    display: 'flex';
+    flex-wrap: 'wrap';
+
+    .divider{
+        margin: 2rem 0 2rem 0; 
+    }
+
+    .textField {
+        margin-left: 2rem; 
+        margin-right: 2rem;
+        width: 200px;
+    }
+}
+  

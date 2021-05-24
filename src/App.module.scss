@@ -1,0 +1,49 @@
+.App{
+    display: flex; 
+    flex-direction: column; 
+
+
+    .titleBox{
+        height: 100px; 
+        width: 100%; 
+        background-color: black;
+        font-size: 40px; 
+        color: #fff; 
+        text-align: center;
+
+        .title {
+            margin-top: 20px; 
+        }
+    }
+
+    .mainContentBox { 
+        width: 100%; 
+        background-color: #fff;
+        margin: 30px 0 200px 0; 
+        
+
+        .loader{
+            margin-left:45%; 
+        }
+         
+        .buttonContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            width: 100%; 
+
+                
+            button {
+                width: 240px;
+                padding: 1rem 1rem;
+                background-color: rgb(70, 190, 112);
+                border: 1px solid #fff; 
+                border-radius: 30px; 
+                font-size: 25px;
+                outline: none;
+                margin: 2rem 0 4rem 0; 
+            }
+        }
+        
+    }
+}
